@@ -126,3 +126,4 @@ mastery over writing SQL.
 - [Documentation - SQLite](https://www.sqlite.org/docs.html)
 - [SQLite - VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 - [SQLite Keywords - SQLite](https://www.sqlite.org/lang_keywords.html)
+- [ZetCode sqlite3 Tutorial](http://zetcode.com/db/sqlite/)
