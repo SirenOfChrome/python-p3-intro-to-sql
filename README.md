@@ -69,23 +69,23 @@ database of items for sale. The New York Times has a storage system for all of
 their articles. Most of the sites you interact with every day, and consequently
 most of the sites you'll work on or build, need databases to persist data.
 
-We've already seen how we can build Ruby programs that model real-world objects
-and environments. We've seen one form of "persistence" for our objects by
-storing objects in memory when our applications are running, like by using the
-`@@all` class variable to store all instances of the class that are created when
+We've already seen how we can build Python programs that model real-world
+objects and environments. We've seen one form of "persistence" for our objects
+by storing objects in memory when our applications are running, like by using
+the class attributes to store all instances of the class that are created when
 our application runs.
 
 With database management skills, we'll learn to store representations of the
-Ruby objects our programs create and retrieve them at the appropriate time.
-We’ll also learn how to connect our Ruby (and even later, Ruby on Rails)
+Python objects our programs create and retrieve them at the appropriate time.
+We’ll also learn how to connect our Python (and even later, Flask)
 applications to our databases.
 
 For example, a basic web application might have many users. So far, we've
-learned how to build a Ruby `User` class that produces user objects. But, we
+learned how to build a Python `User` class that produces user objects. But, we
 don't yet know how to store those users and their details. If a user signs up
 for our app and we proceed to lose all their information immediately, how will
 we know if an existing user is signing back into our app? We need a way to take
-our Ruby objects, store them in a database and retrieve them at the appropriate
+our Python objects, store them in a database and retrieve them at the appropriate
 time.
 
 ***
@@ -100,12 +100,12 @@ end of this section, you’ll be able to:
 - Relate data within a given database
 - Write SQL code in both your command line and your text editor and execute the
   code against a database
-- Write Ruby programs that talk to and save data to your databases
+- Write Python programs that talk to and save data to your databases
 
 **IMPORTANT NOTE**: This section introduces a lot of new SQL syntax — you're
 being introduced to an entirely new programming language! However, a bit later
 in this phase, we'll be introducing a tool, Active Record, which will allow
-us to use Ruby classes to interact with a SQL database instead of writing
+us to use Python classes to interact with a SQL database instead of writing
 SQL ourselves.
 
 It's important to still have an understanding of what Active Record does for us
