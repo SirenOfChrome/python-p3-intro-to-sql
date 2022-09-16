@@ -104,13 +104,13 @@ end of this section, you’ll be able to:
 
 **IMPORTANT NOTE**: This section introduces a lot of new SQL syntax — you're
 being introduced to an entirely new programming language! However, a bit later
-in this phase, we'll be introducing a tool, Active Record, which will allow
+in this phase, we'll be introducing a tool, SQLAlchemy, which will allow
 us to use Python classes to interact with a SQL database instead of writing
 SQL ourselves.
 
-It's important to still have an understanding of what Active Record does for us
+It's important to still have an understanding of what SQLAlchemy does for us
 under the hood, and you'll need to understand some SQL syntax to know what
-Active Record is actually doing, and how to debug some common issues and improve
+SQLAlchemy is actually doing, and how to debug some common issues and improve
 your code's performance.
 
 That being said: don't worry too much about memorizing all the _syntax_ in this
